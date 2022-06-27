@@ -1,0 +1,116 @@
+body {
+  background-color: hsl(217, 54%, 11%);
+  font-family: "Outfit", sans-serif;
+  color: aliceblue;
+}
+.container-nft-preview-card {
+  display: flex;
+  height: 100vh;
+  justify-content: center;
+  align-items: center;
+}
+.container-card {
+  background-color: hsl(216, 50%, 16%);
+  /* height: 550px; */
+  width: 320px;
+  border-radius: 20px;
+  position: relative;
+}
+.container-card img {
+  height: 270px;
+  width: 270px;
+  border-radius: 30px;
+  padding: 20px;
+  position: relative;
+  left: 5px;
+}
+.container-card .eye {
+    border-radius: 20px;
+    position: absolute;
+    padding: 20px;
+  height: 250px;
+  width: 240px;
+  left: 20px;
+  opacity: 0;
+  transition: all 0.7s ease;
+  background-color: red;
+  margin: auto;
+
+}
+.container-card .eye:hover{
+opacity: .6;
+}
+.container-card h2 {
+  font-size: 27px;
+  color: hsl(0, 0%, 100%);
+  /* height: 10px;
+    width: 200px;
+     */
+  padding-left: 25px;
+  margin-top: 1px;
+}
+.container-card h2:hover {
+  color: hsl(178, 100%, 50%);
+}
+.container-nft-preview-card-p {
+  color: hsl(215, 51%, 70%);
+  padding-left: 24px;
+  font-size: 20px;
+}
+.ethereum-clock-container {
+  padding: 20px;
+  display: flex;
+  justify-content: space-between;
+}
+.ethereum {
+  display: flex;
+}
+.container-card .image-ethereum {
+  padding-left: 0;
+  width: 11px;
+  height: 18px;
+}
+.ethereum-text {
+  color: hsl(178, 100%, 50%);
+}
+.clock {
+  display: flex;
+}
+.clock .image-clock {
+  width: 18px;
+  height: 18px;
+}
+.clock-text {
+  color: hsl(215, 51%, 70%);
+}
+/* hr {
+  width: 90%;
+} */
+.hr {
+  border-bottom: 1px solid hsl(215, 51%, 70%);
+  opacity: 0.3;
+  border-radius: 5px;
+  width: 90%;
+  margin: auto;
+}
+.avatar-container {
+  display: flex;
+  align-items: center;
+  margin: auto;
+  margin-top: 10px;
+  width: 90%;
+}
+.avatar-container .avatar-image {
+  border: 1px solid white;
+  padding: 0;
+  margin-right: 15px;
+  height: 27px;
+  width: 27px;
+}
+.avatar-p {
+  color: hsl(215, 51%, 70%);
+}
+.avatar-a {
+  color: white;
+  text-decoration: none;
+}
